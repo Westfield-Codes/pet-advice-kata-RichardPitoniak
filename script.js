@@ -3,7 +3,7 @@
 /* Var, Prompt, Confirm, Alert, Compound Conditional */
 
 // Create pet variable, set equal to empty quotes ("")
-
+function button () {
 var pet = ("")
 // Ask if they are allergic, store in a boolean variable with OK/Cancel
 var allergic = confirm ("are you allergic to pet hair? Ok for yes, cancel for no")
@@ -25,4 +25,4 @@ alert ("you would do well with a " + pet)
 var petname = prompt ("name your pet")
 // Display petname the pet says hi. 
 alert (petname + " the " + pet + " says hi")
-
+};
